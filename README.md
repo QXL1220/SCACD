@@ -1,5 +1,9 @@
 ## 🗝️Let's Get Started!
-### `A. Installation`
+### `A. Explanation of Code and Paper Relationship`
+
+This code repository corresponds to the paper titled "Enhanced Remote Sensing Change Detection via Spatial-Reducing Cross-Attention and VMamba", which we submitted to The Visual Computer (manuscript ID: f397dd31-6bdb-421d-abaf-e1e1b9abe862). If you use this code or base your research on it, please cite the paper to support our work.
+
+### `B. Installation`
 The repo is based on the [VMama repo](https://github.com/MzeroMiko/VMamba), thus you need to install it first. The following installation sequence is taken from the VMamba repo. Also, note that the code in this repo runs under Linux system. We have not tested whether it works under other OS.
 
 **Step 1: Clone the repository:**
@@ -36,7 +40,6 @@ cd kernels/selective_scan && pip install .
 pip install mmengine==0.10.1 mmcv==2.1.0 opencv-python-headless ftfy regex
 pip install mmdet==3.3.0 mmsegmentation==1.2.2 mmpretrain==1.2.0
 ```
-
 ### `C. Data Preparation`
 ***Binary change detection***
 
